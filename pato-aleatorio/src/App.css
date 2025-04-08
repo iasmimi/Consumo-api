@@ -142,3 +142,42 @@ button {
     font-size: 1rem;
   }
 }
+header p {
+  color: #795548;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+.info-box {
+  background-color: #fff9c4;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.info-box h3 {
+  color: #5d4037;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.duck-info-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.duck-info-list li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.duck-info-list li:before {
+  content: "•";
+  color: #ffc107;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -3px;
+}
