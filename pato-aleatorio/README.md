@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+Documentação do Projeto: Aplicativo dos Patos 🦆 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Introdução 
 
-## Available Scripts
+Este projeto é uma aplicação web divertida e educativa que utiliza a API pública Random Duck para exibir imagens aleatórias de patos. O sistema foi desenvolvido com foco em boas práticas de componentização, estilo e interatividade. 
 
-In the project directory, you can run:
+2. Objetivo da Aplicação 
 
-### `npm start`
+O objetivo do projeto é apresentar uma aplicação web funcional e bonita que consome dados de uma API, exibindo imagens de patos junto com informações educativas sobre eles, de forma aleatória e interativa. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Tecnologias Utilizadas 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js 
+- Node.js 
+- Express.js 
+- Axios 
+- HTML e CSS 
+- JavaScript 
+- API Random Duck 
 
-### `npm test`
+4. Estrutura de Pastas 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 
+duck_app_final/ 
+│ 
+├── client/                 # Front-end (React) 
+│   ├── public/ 
+│   ├── src/ 
+│   │   ├── components/ 
+│   │   ├── App.js 
+│   │   └── index.js 
+│   └── package.json 
+│ 
+├── server/                 # Back-end (Node + Express) 
+│   ├── index.js 
+│   └── package.json 
+ 
 
-### `npm run build`
+5. Funcionalidades Implementadas 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 
+• Exibição de imagem aleatória de pato usando a API Random Duck. 
+• Informações educativas trocadas junto com a imagem (habitat, alimentação, curiosidade). 
+• Botão para trocar a imagem e as informações do pato. 
+• Contador de quantos patos o usuário já viu. 
+• Botão "Curtir esse pato", que soma os likes dados. 
+• Animação leve ao trocar a imagem (fade-in). 
+• Ícone de pato no topo. 
+• Rodapé com nome e turma. 
+• Estilização com cores suaves (amarelo claro e rosa claro). 
+• Responsivo para funcionar bem no celular. 
+• Opção de som “quack!” (caso desejado). 
+ 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. Como Rodar o Projeto 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ 
+1. Extraia o projeto da pasta ZIP. 
+2. No terminal, vá até a pasta `server` e execute: 
+   npm install 
+   node index.js 
+3. Em outro terminal, vá até a pasta `client` e execute: 
+   npm install 
+   npm start 
+4. Acesse o app no navegador em http://localhost:3000 
+ 
 
-### `npm run eject`
+7. Extras do Projeto 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ 
+• Estilo visual agradável e colorido. 
+• Layout responsivo para celulares. 
+• Animação suave na troca de imagem. 
+• Possível adição de som de pato na troca. 
+ 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+8. Autoria 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito por Iasmin Aicha Martins da Silva - Turma do SENAI 
