@@ -21,57 +21,65 @@ O objetivo do projeto é apresentar uma aplicação web funcional e bonita que c
 4. Estrutura de Pastas 
 
  
-duck_app_final/ 
-│ 
-├── client/                 # Front-end (React) 
-│   ├── public/ 
-│   ├── src/ 
-│   │   ├── components/ 
-│   │   ├── App.js 
-│   │   └── index.js 
-│   └── package.json 
-│ 
-├── server/                 # Back-end (Node + Express) 
-│   ├── index.js 
-│   └── package.json 
- 
+pato-aleatorio/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── sounds/
+│       └── quack.mp3
+│
+├── src/
+│   ├── components/
+│   │   ├── DuckImage.jsx
+│   │   ├── DuckInfo.jsx
+│   │   └── Button.jsx
+│   │
+│   ├── constants/
+│   │   └── duckFacts.js
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── styles/
+│   │   ├── App.css
+│   │   └── components/
+│   │       ├── duck.css
+│   │       └── buttons.css
+│   │
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
 
 5. Funcionalidades Implementadas 
 
  
 • Exibição de imagem aleatória de pato usando a API Random Duck. 
-• Informações educativas trocadas junto com a imagem (habitat, alimentação, curiosidade). 
+• Informações educativas trocadas junto com a imagem (habitat, alimentação, natação). 
 • Botão para trocar a imagem e as informações do pato. 
 • Contador de quantos patos o usuário já viu. 
 • Botão "Curtir esse pato", que soma os likes dados. 
 • Animação leve ao trocar a imagem (fade-in). 
-• Ícone de pato no topo. 
-• Rodapé com nome e turma. 
+• Ícone de pato no topo.  
 • Estilização com cores suaves (amarelo claro e rosa claro). 
-• Responsivo para funcionar bem no celular. 
-• Opção de som “quack!” (caso desejado). 
  
 
 6. Como Rodar o Projeto 
 
  
 1. Extraia o projeto da pasta ZIP. 
-2. No terminal, vá até a pasta `server` e execute: 
+2. No terminal, vá até a pasta `pato-aleatorio` e execute: 
    npm install 
-   node index.js 
-3. Em outro terminal, vá até a pasta `client` e execute: 
-   npm install 
-   npm start 
-4. Acesse o app no navegador em http://localhost:3000 
+   npm start
+3. Acesse o app no navegador em http://localhost:3000 
  
 
 7. Extras do Projeto 
 
- 
 • Estilo visual agradável e colorido. 
-• Layout responsivo para celulares. 
 • Animação suave na troca de imagem. 
-• Possível adição de som de pato na troca. 
+ 
  
 
 8. Autoria 
